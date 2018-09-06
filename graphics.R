@@ -98,7 +98,7 @@ field_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contracts/images/field_stars.png", field_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/field_stars.png", field_stars, width=9, height=3)
 
 
 # sprint stars
@@ -120,7 +120,7 @@ sprint_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contracts/images/sprint_stars.png", sprint_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/sprint_stars.png", sprint_stars, width=9, height=3)
 
 
 # boston_men stars
@@ -163,7 +163,7 @@ boston_women_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contracts/images/boston_women_appearance.png", boston_women_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/boston_women_appearance.png", boston_women_stars, width=9, height=7)
 
 
 
