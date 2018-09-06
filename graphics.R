@@ -14,7 +14,7 @@ theme <- theme(axis.title.y=element_blank(),
 
 
 # distance stars
-distance <- read.csv('~/code/letsrun-contract-data/data/distance.csv')
+distance <- read.csv('~/code/letsrun-contracts/data/distance.csv')
 
 distance$label <- paste("$", comma(distance$Mean), sep = "")
 
@@ -32,11 +32,11 @@ distance_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contract-data/images/distance_stars.png", distance_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/distance_stars.png", distance_stars, width=9, height=9)
 
 
 # 1500
-milers <- read.csv('~/code/letsrun-contract-data/data/1500.csv')
+milers <- read.csv('~/code/letsrun-contracts/data/1500.csv')
 
 milers$label <- paste("$", comma(milers$Mean), sep = "")
 
@@ -54,11 +54,11 @@ milers_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contract-data/images/1500_stars.png", milers_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/1500_stars.png", milers_stars, width=9, height=3)
 
 
 # distance_b stars
-distance_b <- read.csv('~/code/letsrun-contract-data/data/distance-b.csv')
+distance_b <- read.csv('~/code/letsrun-contracts/data/distance-b.csv')
 
 distance_b$label <- paste("$", comma(distance_b$Mean), sep = "")
 
@@ -76,11 +76,11 @@ distance_b_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contract-data/images/distance_b_stars.png", distance_b_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/distance_b_stars.png", distance_b_stars, width=9, height=3)
 
 
 # field stars
-field <- read.csv('~/code/letsrun-contract-data/data/field.csv')
+field <- read.csv('~/code/letsrun-contracts/data/field.csv')
 
 field$label <- paste("$", comma(field$Mean), sep = "")
 
@@ -98,11 +98,11 @@ field_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contract-data/images/field_stars.png", field_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/field_stars.png", field_stars, width=9, height=9)
 
 
 # sprint stars
-sprint <- read.csv('~/code/letsrun-contract-data/data/sprint.csv')
+sprint <- read.csv('~/code/letsrun-contracts/data/sprint.csv')
 
 sprint$label <- paste("$", comma(sprint$Mean), sep = "")
 
@@ -120,11 +120,11 @@ sprint_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contract-data/images/sprint_stars.png", sprint_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/sprint_stars.png", sprint_stars, width=9, height=9)
 
 
 # boston_men stars
-boston_men <- read.csv('~/code/letsrun-contract-data/data/boston-men.csv')
+boston_men <- read.csv('~/code/letsrun-contracts/data/boston-men.csv')
 
 boston_men$label <- paste("$", comma(boston_men$Mean), sep = "")
 
@@ -142,10 +142,10 @@ boston_men_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contract-data/images/boston_men_appearance.png", boston_men_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/boston_men_appearance.png", boston_men_stars, width=9, height=9)
 
 # boston_women stars
-boston_women <- read.csv('~/code/letsrun-contract-data/data/boston-women.csv')
+boston_women <- read.csv('~/code/letsrun-contracts/data/boston-women.csv')
 
 boston_women$label <- paste("$", comma(boston_women$Mean), sep = "")
 
@@ -163,7 +163,7 @@ boston_women_stars <-
   text_labels +
   theme
 
-ggsave("~/code/letsrun-contract-data/images/boston_women_appearance.png", boston_women_stars, width=9, height=9)
+ggsave("~/code/letsrun-contracts/images/boston_women_appearance.png", boston_women_stars, width=9, height=9)
 
 
 
